@@ -1,0 +1,29 @@
+.container{
+    display:grid;
+    grid-template-areas: 
+    "menu Contenido"
+    "menu Contenido"
+    "menu Footer";
+    grid-template-columns: 80px 500px;
+    grid-template-rows: 100px 100px 30px;
+    gap: 5px 5px;
+}
+.menu{
+    display: grid;
+    grid-area:menu;
+    grid-template-areas: 
+    "Boton1"
+    "Boton2"
+    "Boton3"
+    ;
+    background-color: aqua;
+}
+.Contenido{
+    grid-area: Contenido;
+    background-color: blueviolet;
+}
+
+.Footer{
+    grid-area: Footer;
+    background-color: yellow;
+}
